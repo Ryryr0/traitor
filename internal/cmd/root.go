@@ -98,7 +98,7 @@ var rootCmd = &cobra.Command{
 			}
 		}
 		if exploitName != "" && !found {
-			baseLog.Printf("No exploit found for '%s'", exploitName)
+			baseLog.Printf("bla bla bla found for '%s'", exploitName)
 		} else if !vulnFound {
 			baseLog.Printf("found to exploit.")
 		}
