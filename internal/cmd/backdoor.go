@@ -67,7 +67,6 @@ var backdoorUninstallCmd = &cobra.Command{
 		if err := backdoor.Uninstall(path); err != nil {
 			fail("Failed to remove backdoor: %s", err)
 		}
-
-		fmt.Println("dfds removed.")
+		fmt.Println("removed.")
 	},
 }
